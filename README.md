@@ -29,6 +29,10 @@ The most interesting part of this task is implementation of logging of empty HTT
 
 Carefully check your dependencies. Do you anticipate any *design smells* in your implementation? How much *cohesive* and *coupled* are your functions? How many responsibilities does each function hold? Do you have any dependency on concrete implementation rather than abstraction? **In this task actual implementation is not as important as deep insight into design approach you take, so pay special attention to understanding every move you make.**
 
+### (Optional) Impact of changes
+
+What if data API changes? In current version payments and refunds are stored together, but what if they will be stored separately, as in [db2.json](https://github.com/kmaooad/fancy-billing/blob/master/db2.json)? How much change will be required in your implementation to support new data API? You can use alternative data file and make your own JSON server to work on updated implemenation. 
+
 ### (Optional) Peer review
 
 As before, it is highly recommended to do some code review for your classmates and ask for code review from others. Discuss your points of view and chosen approaches.
