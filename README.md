@@ -15,7 +15,7 @@ In this task you will work with [fake JSON server](http://my-json-server.typicod
 
 #### Balance calculation
 
-Balance for a given customer and period can be calculated from services used in this period as sum of used amount (`amount` field in `usage`) multiplied by price per unit (`pricing` field in `plans`). Every customer has specific plan assigned.
+Balance for a given customer and period can be calculated from services used in this period as sum of used amount (`quantity` field in `usage`) multiplied by price per unit (`pricing` field in `plans`). Every customer has specific plan assigned.
 
 #### Making HTTP requests
 
